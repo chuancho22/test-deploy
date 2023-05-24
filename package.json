@@ -1,0 +1,41 @@
+{
+  "name": "p4-fa2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@mdi/font": "^7.2.96",
+    "@popperjs/core": "^2.11.7",
+    "@videojs-player/vue": "^1.0.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue-3": "^0.5.1",
+    "firebase": "^9.19.1",
+    "mdi-vue": "^3.0.13",
+    "vite": "^4.3.5",
+    "vue": "^3.2.47",
+    "vue-advanced-chat": "^2.0.7",
+    "vue-insta-stories": "^0.1.1",
+    "vue-video-player": "^6.0.0",
+    "vuetify": "^3.2.2",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "execa": "^7.1.1",
+    "gh-pages": "^5.0.0",
+    "sass": "^1.62.1",
+    "video.js": "^7.21.4",
+    "vite": "^4.3.5"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
